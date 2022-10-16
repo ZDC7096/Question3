@@ -1,4 +1,6 @@
-const btnD = document.getElementById('btnA');
-        function clicked (){
-            document.getElementById("btnA").innerHTML = "CORRECT";
+function change (){
+        let yes = document.getElementById('next').style.color = 'white';
+        document.getElementById("btnA").innerHTML = "CORRECT";
+        document.getElementById('next').innerHTML = 'CLICK FOR NEXT QUESTION!';
+        document.getElementById('next').style.backgroundColor = '#0075ff'
     }
